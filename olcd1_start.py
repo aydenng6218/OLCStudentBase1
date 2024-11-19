@@ -82,17 +82,24 @@
 # print("the total length of the name" , fname , lname , "is" , total)
 
 #random number generator (might repeat)
-import random 
-for i in range(7):
-    num = random.randint(1, 47)
-    print(num)
+# import random 
+# for i in range(7):
+#     num = random.randint(1, 47)
+#     print(num)
 
-#list  (wont repeat)
-rannums = []
+# #list  (wont repeat)
+# rannums = []
 
-while len(rannums) < 6:
-    num = random.randint(1,47)
-    if num not in rannums:
-        rannums.append(num)
+# while len(rannums) < 6:
+#     num = random.randint(1,47)
+#     if num not in rannums:
+#         rannums.append(num)
 
-print(rannums)
+# print(rannums)
+
+
+#times table program
+
+number = int(input("what is the number?"))
+for  i in range(1,13):
+    print(number , "x" , i , "=" , number*i)
